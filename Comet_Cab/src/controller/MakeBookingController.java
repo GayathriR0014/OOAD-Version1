@@ -48,7 +48,7 @@ public class MakeBookingController extends HttpServlet {
 		String confirmation;
 		confirmation=bookingService.makeBooking(netId, location, eFare,cabType.name());
 		
-	/*	if (confirmation
+	/*	if (confirmation // to be continued
 		request.setAttribute("message", "Hello "+"Test");
 		request.setAttribute("netId", "Test");
 		request.getRequestDispatcher("welcome.jsp").forward(request, response);*/
